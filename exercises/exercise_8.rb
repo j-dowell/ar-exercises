@@ -9,3 +9,5 @@ require_relative './exercise_7'
 
 puts "Exercise 8"
 puts "----------"
+@store2.employees.create(first_name: "AnotherOne", last_name: "Person", hourly_rate: 50)
+puts @store2
